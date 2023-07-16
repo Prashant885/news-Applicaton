@@ -1,0 +1,159 @@
+@media screen and (max-width:991px ){
+     .bar{
+        display: block;
+        margin-right: 1.5rem;
+    } 
+    .card-container{
+        row-gap: 1rem;
+        column-gap: 0.5rem;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: auto auto;
+  
+
+}
+.cards{
+    background-color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 0.25rem;
+
+ animation: all 0.3s ease;
+ margin-left: 0.5rem;
+ margin-right: 0.5rem;   
+}
+.container{
+    position: relative;
+    overflow: initial;
+}
+.nav-links{
+    position: absolute;
+    left:-100%;
+    top: 100%;
+    padding-block: 1rem;
+    width: 100%;
+    transition: 0.4s ease;
+
+}
+.nav-links.active{
+    left:0;
+    background-color: rgb(206, 201, 201);
+
+}
+.nav-links ul{
+    flex-direction: column;
+}
+
+} 
+
+@media screen and (max-width:500px){
+    .company-logo img{
+        margin-left: 1rem;
+    }
+    .bar{
+        display: block;
+        margin-right: 1rem;
+    }
+     
+     .card-container{
+        justify-content: center;
+        display: grid;
+        row-gap: 0.5rem;
+        flex-wrap: wrap;
+        
+        grid-template-columns: auto;
+        grid-auto-rows: 25rem;
+
+    }
+    .cards{
+        background-color: #fff;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 0.25rem;
+    
+     animation: all 0.3s ease;
+     
+    }
+        
+     #news-title{
+        font-size: medium;
+     }
+
+     .container{
+        position: relative;
+        overflow: initial;
+    }
+     .menu-cont{
+        position: absolute;
+        display: flex;
+        left:-110%;
+    top: 100%;
+    padding-block: 1rem;
+    width: 100%;
+    transition: 0.4s ease;
+
+     }
+     .menu-cont.activv{
+        left:0;
+        background-color: rgb(206, 201, 201);
+    
+    }
+     
+   
+}
+ @media screen and (max-width:300px){
+    .company-logo img{
+        margin-left: 1rem;
+    }
+.bar{
+    display: block;
+    margin-right: 1rem;
+}
+
+
+.news-src{
+    display: none;
+}
+.news-desc{
+    display: none;
+}
+.card-container{
+    display: grid;
+    row-gap: 0.5rem;
+    flex-wrap: wrap;
+    
+    grid-template-columns: auto;
+    grid-auto-rows: 20rem;
+}
+.cards{
+    background-color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 0.25rem;
+
+ animation: all 0.3s ease;
+ margin-left: 1rem;
+ margin-right: 1rem;
+}
+.container{
+    position: relative;
+    overflow: initial;
+}
+ .menu-cont{
+    position: absolute;
+    display: flex;
+    left:-190%;
+top: 100%;
+padding-block: 1rem;
+width: 100%;
+transition: 0.4s ease;
+
+ }
+ .menu-cont.activv{
+    left:0;
+    background-color: rgb(206, 201, 201);
+
+}
+ 
+
+ }
